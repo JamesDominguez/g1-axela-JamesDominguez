@@ -44,7 +44,19 @@ input.addEventListener('keypress',checkKey);
 function processInput(){
 let currentInput=input.value;
 input.value='';
-alert(currentInput);
+//if(currentInput=="Tell me a joke."){
+//  document.body.style.backgroundImage = "./img/someone.jpg";
+//}
+
+if(validInputs.indexOf(currentInput)==-1){
+  message.innerHTML="whhhhhaaaaaattttt!!!!! dude what are you saying";
 }
+else{
+message.innerHTML=responses[validInputs.indexOf(currentInput)];
+}
+
+}
+
+
 
 })();
