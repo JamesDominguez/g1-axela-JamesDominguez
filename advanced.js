@@ -1,5 +1,5 @@
 (function () {
-
+  
   var input = document.querySelector("#axela-input"),
       submit = document.querySelector("#axela-submit"),
       message = document.querySelector("#axela-message"),
@@ -137,6 +137,7 @@ function what(word){
      message.innerHTML='someone wasent ready'
    }
 }
+
   /*
    * where(word)
    * See above.
@@ -144,14 +145,16 @@ function what(word){
    function where(word){
       switch (word) {
         case 'me':
-        message.innerHTML='coach james'
+        message.innerHTML='coach james is everywhere'
           break;
             case 'atlantis':
             message.innerHTML='somewhere'
               break;
                 case 'food':
-                message.innerHTML='hunger'
-                  break;
+                let audio = new Audio('audio/datway.mp3');
+                audio.play();
+                //message.innerHTML='hunger'
+                  //break;
         default:
         message.innerHTML='i think some person wasent ready'
       }
