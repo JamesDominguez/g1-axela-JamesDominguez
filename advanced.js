@@ -25,7 +25,7 @@ window.speechSynthesis.speak(msg);
           var msg = new SpeechSynthesisUtterance("For millions of years, mankind lived just like the animals. Then something happened which unleashed the power of our imagination. We learned to talk and we learned to listen. Speech has allowed the communication of ideas, enabling human beings to work together to build the impossible. Mankind's greatest achievements have come about by talking, and its greatest failures by not talking. It doesn't have to be like this. Our greatest hopes could become reality in the future. With the technology at our disposal, the possibilities are unbounded. All we need to do is make sure we keep talking.");
           window.speechSynthesis.speak(msg);
           //        alert('Hello world!');
-                }
+        },
                 'Roll a die': function() {
             var msg = new SpeechSynthesisUtterance("What is the meaning of human life, or, for that matter, of the life of any creature? To know the answer to this question means to be religious. You ask: Does it make any sense, then, to pose this question? I answer: The man who regards his fellow creatures as meaningless is not merely unhappy but hardly fit for life.");
             window.speechSynthesis.speak(msg);
