@@ -31,6 +31,12 @@ window.speechSynthesis.speak(msg);
             window.speechSynthesis.speak(msg);
             //        alert('Hello world!');
                   }
+                  ,
+                          'what is pie': function() {
+                      var msg = new SpeechSynthesisUtterance("3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510");
+                      window.speechSynthesis.speak(msg);
+                      //        alert('Hello world!');
+                            }
   };
 
   // Add our commands to annyang
