@@ -5,7 +5,7 @@
     var commands = {
       'hello': function() {
 var RFhello = ["why","hello", "hey", "hi"];
-var msg = new SpeechSynthesisUtterance(RFhello[Math.random()*2]);
+var msg = new SpeechSynthesisUtterance(RFhello[Math.random()*3]);
 window.speechSynthesis.speak(msg);
 //        alert('Hello world!');
       },
