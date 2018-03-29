@@ -26,7 +26,7 @@ window.speechSynthesis.speak(msg);
           window.speechSynthesis.speak(msg);
           //        alert('Hello world!');
         },
-                'Roll a die': function() {
+                'what is the meaning of life': function() {
             var msg = new SpeechSynthesisUtterance("What is the meaning of human life, or, for that matter, of the life of any creature? To know the answer to this question means to be religious. You ask: Does it make any sense, then, to pose this question? I answer: The man who regards his fellow creatures as meaningless is not merely unhappy but hardly fit for life.");
             window.speechSynthesis.speak(msg);
             //        alert('Hello world!');
