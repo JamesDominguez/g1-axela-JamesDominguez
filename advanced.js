@@ -1,9 +1,15 @@
 (function () {
+
   if (annyang) {
   // Let's define a command.
     var commands = {
-      'hello': function() { alert('Hello world!');},
+      'hello': function() {
+var msg = new SpeachSyntheososUtteramce("hello");
+//        alert('Hello world!');
+
+      },
       'James': function() { alert('Hi James');}
+      'hey': function() { alert('Hi julio');}
 
   };
 
