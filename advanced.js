@@ -10,7 +10,7 @@ window.speechSynthesis.speak(msg);
 
       },
       'James': function() { alert('Hi James');}
-      'hey': function() { alert('Hi julio');}
+
 
   };
 
