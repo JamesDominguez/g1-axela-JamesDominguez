@@ -14,7 +14,12 @@ window.speechSynthesis.speak(msg);
 var msg = new SpeechSynthesisUtterance("wolf sucks at fortnite");
 window.speechSynthesis.speak(msg);
 //        alert('Hello world!');
-      }
+      }    ,
+          'tell me a joke': function() {
+      var msg = new SpeechSynthesisUtterance("Why don’t scientists trust atoms?     Because they make up everything.");
+      window.speechSynthesis.speak(msg);
+      //        alert('Hello world!');
+            }
 
 
   };
@@ -130,7 +135,7 @@ window.speechSynthesis.speak(msg);
 function who(word){
   switch (word) {
     case 'you':
-    message.innerHTML='I am alexa, of course'
+    message.innerHTML='I am juan, of course'
       break;
       case 'me':
       message.innerHTML='you are you'

@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
 
   var input= document.querySelector('#iris-input'),
       submit= document.querySelector('#iris-submit'),
@@ -40,7 +40,7 @@ input.addEventListener('keypress',checkKey);
    *  So if the user enters "What is the meaning of life" (index 3 in the
    *  validInputs array), the response would be "42. Duh" (index 3 in the
    *  responses array).
-   */
+   
 function processInput(){
 let currentInput=input.value;
 input.value='';
