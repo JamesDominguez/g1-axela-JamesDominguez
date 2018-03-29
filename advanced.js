@@ -4,7 +4,8 @@
   // Let's define a command.
     var commands = {
       'hello': function() {
-var msg = new SpeachSyntheososUtteramce("hello");
+var msg = new SpeechSynthesisUtterance("hello");
+window.speechSynthesis.speak(msg);
 //        alert('Hello world!');
 
       },
