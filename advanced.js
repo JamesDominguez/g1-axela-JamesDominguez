@@ -10,8 +10,8 @@ window.speechSynthesis.speak(msg);
       },
       'James': function() { alert('Hi James');}
     ,
-      'tell me the truth': function() {
-var msg = new SpeechSynthesisUtterance("hello");
+    'tell me the truth': function() {
+var msg = new SpeechSynthesisUtterance("wolf sucks");
 window.speechSynthesis.speak(msg);
 //        alert('Hello world!');
       }
