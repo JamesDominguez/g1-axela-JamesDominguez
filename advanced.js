@@ -7,9 +7,14 @@
 var msg = new SpeechSynthesisUtterance("hello");
 window.speechSynthesis.speak(msg);
 //        alert('Hello world!');
-
       },
       'James': function() { alert('Hi James');}
+    ,
+      'tell me the truth': function() {
+var msg = new SpeechSynthesisUtterance("hello");
+window.speechSynthesis.speak(msg);
+//        alert('Hello world!');
+      }
 
 
   };
