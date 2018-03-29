@@ -33,7 +33,7 @@ window.speechSynthesis.speak(msg);
                   }
                   ,
                           'what is pie': function() {
-                      var msg = new SpeechSynthesisUtterance("3.14159 26535 89793 23846 26433 83279 50288 41971 69399 37510");
+                      var msg = new SpeechSynthesisUtterance("3.14159 26535 89793 ");
                       window.speechSynthesis.speak(msg);
                       //        alert('Hello world!');
                             }
