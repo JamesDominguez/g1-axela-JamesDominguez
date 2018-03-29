@@ -37,6 +37,12 @@ window.speechSynthesis.speak(msg);
                       window.speechSynthesis.speak(msg);
                       //        alert('Hello world!');
                             }
+                            ,
+                                    'how are you doing today': function() {
+                                var msg = new SpeechSynthesisUtterance("quite well and you");
+                                window.speechSynthesis.speak(msg);
+                                //        alert('Hello world!');
+                                      }
   };
 
   // Add our commands to annyang
