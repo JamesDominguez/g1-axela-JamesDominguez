@@ -26,7 +26,11 @@ window.speechSynthesis.speak(msg);
           window.speechSynthesis.speak(msg);
           //        alert('Hello world!');
                 }
-
+                'Roll a die': function() {
+            var msg = new SpeechSynthesisUtterance(Math.floor(Math.random() * 7););
+            window.speechSynthesis.speak(msg);
+            //        alert('Hello world!');
+                  }
   };
 
   // Add our commands to annyang
