@@ -3,7 +3,7 @@
   if (annyang) {
   // Let's define a command.
     var commands = {
-      'hello': function() {
+      RFhello: function() {
 var RFhello = ["hello", "hey", "hi","greetings","whats up","how's is it going"];
 var msg = new SpeechSynthesisUtterance(RFhello[Math.floor((Math.random() * 5) + 1)]);
 window.speechSynthesis.speak(msg);
